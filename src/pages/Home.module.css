@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;600;700;800;900&family=Esteban&display=swap");
+
+.home {
+  background-color: var(--secondary-color);
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.homeContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0rem 10rem;
+  position: absolute;
+  top: 20%;
+}
+
+.homeContainer h1 {
+  font-weight: 900;
+  font-size: 10rem;
+  letter-spacing: 5px;
+}
+
+.homeContainer h3 {
+  font-size: 6rem;
+}
+
+.homeContainer h4 {
+  font-size: 6rem;
+  color: var(--blue-color);
+}
+
+.typeWriter {
+  width: 60rem;
+  height: 8rem;
+}
+
+/* Home buttons */
+.btnContainer {
+  margin-top: 5rem;
+}
+.btn {
+  padding: 1.5rem 5rem;
+  font-size: 2.3rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+}
+.aboutMeBtn {
+  margin-right: 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border: 1px solid white;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.showCvBtn {
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 880px) {
+  .btnContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMeBtn {
+    margin-bottom: 2rem;
+  }
+  .homeContainer h1 {
+    font-weight: 900;
+    font-size: 8rem;
+    letter-spacing: 5px;
+  }
+
+  .homeContainer h3 {
+    font-size: 5rem;
+  }
+
+  .homeContainer h4 {
+    font-size: 3.5rem;
+    color: var(--blue-color);
+  }
+
+  .typeWriter {
+    width: 45rem;
+    height: 7rem;
+  }
+}

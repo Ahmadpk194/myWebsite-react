@@ -1,0 +1,124 @@
+/* #25395C, #2787EA, #1C67D2, #A4B0FF, #EA7166, #FCA78A */
+
+.sidebar {
+  /* background-color: #ea7166; */
+  background-color: var(--primary-color);
+  grid-row: 1/-1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Figure */
+
+.profile__figure {
+  color: #fff;
+  /* color: #c6c9d8; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* flex-basis: 30%; */
+  margin-top: 2rem;
+}
+
+/* .profile__figure::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(999, 999, 999, 0.1);
+  position: absolute;
+  top: 29%;
+} */
+
+.profileImg {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.profile__figure figcaption {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Navbar */
+.navbar {
+  flex-basis: 60%;
+  margin-top: 2rem;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.navItem {
+  display: flex;
+}
+
+.navItem:first-child {
+  border-top: 1px solid rgba(999, 999, 999, 0.08);
+}
+
+.navLink {
+  /* background-color: red; */
+  padding: 1rem;
+  color: #fff;
+  flex-basis: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(999, 999, 999, 0.08);
+}
+
+.navLink:first-child {
+}
+
+.navLink:hover {
+  background-color: var(--secondary-color);
+  border: none;
+}
+.navLink:active {
+  color: rgb(218, 218, 218);
+}
+
+.navIcon {
+  font-size: 3.5rem !important;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+/* Footer */
+
+.socialIconsContainer {
+  color: white;
+  margin: 4rem auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialIconsContainer svg {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  color: var(--blue-color);
+}
+
+.footer {
+  color: white;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  flex-grow: 1;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

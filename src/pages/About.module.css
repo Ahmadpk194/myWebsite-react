@@ -1,0 +1,32 @@
+.about {
+  background-color: var(--secondary-color);
+  padding: 7rem 7rem;
+  color: rgba(198, 201, 216, 0.75);
+}
+
+.about h1 {
+  margin-bottom: 1.5rem;
+  font-size: 6rem;
+  color: var(--white-color);
+}
+
+.aboutWrapper {
+  width: 90rem;
+  min-width: 40%;
+}
+
+.aboutTop {
+  display: flex;
+  align-items: center;
+}
+
+.aboutImg {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.aboutTop p {
+  font-size: 1.8rem;
+}

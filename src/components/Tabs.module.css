@@ -1,0 +1,67 @@
+.aboutTabContainer {
+  margin-top: 5rem;
+}
+
+.blocTabs {
+  display: flex;
+  font-size: 3rem;
+}
+
+.blocTabs > div {
+  margin-right: 3rem;
+}
+
+.tabs {
+  position: relative;
+  cursor: pointer;
+}
+
+.tabs::after {
+  content: "";
+  width: 30%;
+  height: 0.3rem;
+  background-color: var(--font-color-light);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -0.4rem;
+}
+
+.activeTabs {
+  color: var(--blue-color);
+}
+
+.activeTabs::after {
+  content: "";
+  width: 100%;
+  height: 0.3rem;
+  background-color: var(--blue-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -0.4rem;
+  transition: all 0.3s linear;
+}
+
+.content {
+  margin-top: 1.5rem;
+  display: none;
+}
+
+.activeContent {
+  display: block;
+}
+
+.content table {
+  font-size: 1.8rem;
+}
+
+.content table strong {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-weight: 550;
+}
+
+td {
+  padding: 1.5rem 0;
+}

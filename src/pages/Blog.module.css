@@ -1,0 +1,14 @@
+.blog {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+}
+
+@media (max-width: 950px) {
+  .blog {
+    font-size: 3rem;
+  }
+}
